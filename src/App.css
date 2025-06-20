@@ -72,7 +72,7 @@ a:hover::before {
     letter-spacing: .7px;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1rem;
   }
   h1 {
@@ -85,7 +85,7 @@ a:hover::before {
     font-size: .8rem;
   }
   h4, h5, h6 {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 }
 
