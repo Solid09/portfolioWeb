@@ -65,7 +65,8 @@ a:hover::before {
 
 @media (max-width: 768px) {
   .home, .projectPage{
-    padding: 0rem 1.5rem 1rem 1.5rem;
+    padding: 0rem 1.5rem 1rem 1.5rem !important;
+    min-height: 100vh;
   }
   .app{
     letter-spacing: .7px;
