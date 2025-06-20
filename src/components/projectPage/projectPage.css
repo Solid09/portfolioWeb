@@ -1,15 +1,26 @@
-.projectPage{
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-   width: 100%;
-   color: #eaeaea;
-   padding: 0rem 10.5rem 3rem 9.5rem;
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: #eaeaea;
+  padding: 0rem 10.5rem 3rem 9.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+  animation-delay: 0.2s;
 }
 
-.projectPage_img{
-   width: 100%;
-   height: auto;
-   max-width: 1300px;
-   object-fit: contain;
+.projectPage_img {
+  width: 100%;
+  height: auto;
+  max-width: 1300px;
+  object-fit: contain;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
