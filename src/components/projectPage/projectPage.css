@@ -1,0 +1,15 @@
+.projectPage{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   width: 100%;
+   color: #eaeaea;
+   padding: 0rem 10.5rem 3rem 9.5rem;
+}
+
+.projectPage_img{
+   width: 100%;
+   height: auto;
+   max-width: 1300px;
+   object-fit: contain;
+}
