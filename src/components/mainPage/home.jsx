@@ -2,38 +2,35 @@ import "./home.css";
 import ProjectCard from "./subcomponent/projectCard.jsx";
 import projectImg from "../../assets/project1.jpeg";
 import Divider from "./subcomponent/divider.jsx";
-import { Link } from "react-router-dom";
 
 function home() {
   return (
     <div className="home">
       <section id="about">
         <div className="about">
-          <h1>ABOUT</h1>
+          <h1>Minhal Raza</h1>
           <p style={{ maxWidth: "700px" }}>
-            I'm a full-stack MERN stack web developer. I specialize in
-            developing strong, scalable web applications with clean backend
-            structure and responsive frontend integration. Although I do not
-            specialize in design, I ensure the functionality, structure, and
-            responsiveness of my apps are up to real-world standards. I've
-            developed projects such as a full-stack Amazon clone with JWT-based
-            authentication, RESTful APIs, and MongoDB integration. I enjoy
-            working on the complete development cycle — from setting up secure
-            user authentication to building efficient APIs and integrating them
-            with a responsive React front end. I’m always learning and
-            improving, and I’m open to freelance work, internships, or
-            collaborative projects that challenge me to grow further as a
-            developer.
+            I'm a MERN stack web developer. I specialize in developing web
+            applications with responsive frontend and backend.
           </p>
-          <h4>Skills</h4>
-          <ul>
-            <li>⚛️ React.js</li>
-            <li>🍃 MongoDB</li>
-            <li>🚂 Express.js</li>
-            <li>🎨 HTML & CSS</li>
+          <h2>Skills</h2>
+          <ul style={{ color: "White" }}>
+            <strong
+              style={{ display: "flex", flexDirection: "column", gap: ".6rem" }}
+            >
+              <li>React.js</li>
+              <li>MongoDB</li>
+              <li>Express.js</li>
+              <li>HTML & CSS</li>
+              <li>C++</li>
+              <li>C# & Unity</li>
+            </strong>
           </ul>
-          <h4 style={{ marginBottom: ".5rem" }}>Website</h4>
-          <p style={{ marginTop: "0" }}>This site was built by me.</p>
+          <h3>About Me</h3>
+          <p>
+            I'm an undergraduate, currently enrolled in BSCS in University Of
+            Karachi. I excel in web development using MERN stack.
+          </p>
         </div>
       </section>
       <Divider margin="3rem 0 4rem" />
@@ -60,6 +57,13 @@ function home() {
             rel="noreferrer"
           >
             LinkedIn 🔗
+          </a>
+          <a
+            href="https://github.com/minhalraza-09"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github 🔗
           </a>
           <a
             href="https://drive.google.com/file/d/14oztu5bGN7ot1HHo83CoolYn_qWjzkRZ/view?usp=sharing"
