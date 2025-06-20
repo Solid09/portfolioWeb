@@ -1,8 +1,8 @@
 .projectPage {
   display: flex;
   flex-direction: column;
+  align-items: left;
   height: 100%;
-  width: 100%;
   color: #eaeaea;
   padding: 0rem 10.5rem 3rem 9.5rem;
   opacity: 0;
