@@ -18,12 +18,12 @@ function home() {
             <strong
               style={{ display: "flex", flexDirection: "column", gap: ".6rem" }}
             >
-              <li>React.js</li>
-              <li>MongoDB</li>
-              <li>Express.js</li>
-              <li>HTML & CSS</li>
-              <li>C++</li>
-              <li>C# & Unity</li>
+              <li>⚛️ React.js</li>
+              <li>🍃 MongoDB</li>
+              <li>🚂 Express.js</li>
+              <li>🎨 HTML & CSS</li>
+              <li>💻 C++</li>
+              <li>🎮 C# & Unity</li>
             </strong>
           </ul>
           <h3>About Me</h3>
