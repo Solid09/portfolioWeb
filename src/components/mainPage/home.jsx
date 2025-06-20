@@ -53,15 +53,15 @@ function home() {
       <section id="contact">
         <div className="contact">
           <h1>CONTACT</h1>
-          <Link href="mailto:syedminhal03@gmail.com">Email Me 🔗</Link>
-          <Link
+          <a href="mailto:syedminhal03@gmail.com">Email Me 🔗</a>
+          <a
             href="https://www.linkedin.com/in/minhal-raza-1522bb2a2/"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn 🔗
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://drive.google.com/file/d/14oztu5bGN7ot1HHo83CoolYn_qWjzkRZ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
@@ -72,7 +72,7 @@ function home() {
             }}
           >
             VIEW RESUME
-          </Link>
+          </a>
         </div>
       </section>
     </div>

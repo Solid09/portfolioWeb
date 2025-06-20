@@ -20,19 +20,19 @@ function projectPage(props) {
         ))}
       </ul>
       <h3>
-        <Link to={props.liveLink} target="_blank" rel="noreferrer">
+        <a href={props.liveLink} target="_blank" rel="noreferrer">
           Live Link 🔗
-        </Link>
+        </a>
       </h3>
       <h3>
-        <Link to={props.frontendGithubLink} target="_blank" rel="noreferrer">
+        <a href={props.frontendGithubLink} target="_blank" rel="noreferrer">
           Frontend GitHub Repository 🔗
-        </Link>
+        </a>
       </h3>
       <h3>
-        <Link to={props.backendGithubLink} target="_blank" rel="noreferrer">
+        <a href={props.backendGithubLink} target="_blank" rel="noreferrer">
           Backend GitHub Repository 🔗
-        </Link>
+        </a>
       </h3>
     </div>
   );
