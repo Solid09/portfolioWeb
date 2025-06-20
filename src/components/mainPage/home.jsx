@@ -15,9 +15,7 @@ function home() {
           </p>
           <h2>Skills</h2>
           <ul style={{ color: "White" }}>
-            <strong
-              style={{ display: "flex", flexDirection: "column", gap: ".6rem" }}
-            >
+            <strong className="about_skills">
               <li>⚛️ React.js</li>
               <li>🍃 MongoDB</li>
               <li>🚂 Express.js</li>
@@ -26,7 +24,7 @@ function home() {
               <li>🎮 C# & Unity</li>
             </strong>
           </ul>
-          <h3>About Me</h3>
+          <h3 style={{marginTop:"2.5rem"}}>About Me</h3>
           <p>
             I'm an undergraduate, currently enrolled in BSCS in University Of
             Karachi. I excel in web development using MERN stack.

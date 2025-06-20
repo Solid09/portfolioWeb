@@ -93,4 +93,8 @@ a:hover::before {
   h4, h5, h6 {
     font-size: .8rem;
   }
+  .about_skills li{
+    min-width: 7rem;
+    padding: .7rem;
+  }
 }

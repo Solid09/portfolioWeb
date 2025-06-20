@@ -18,6 +18,24 @@
   }
 }
 
+.about_skills {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.about_skills li {
+  list-style: none;
+  color: #f0f0f0;
+  border: solid 1px rgb(255, 255, 255);
+  padding: 1rem;
+  min-width: 9rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -40,14 +58,11 @@
 }
 .projectCard_img:hover {
   transform: scale(1.02);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.1);
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   padding-bottom: 8rem;
-}
-.contact a {
-  text-decoration: none;
-  color: #ffffff;
 }
