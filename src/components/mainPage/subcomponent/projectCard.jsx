@@ -1,9 +1,13 @@
 import { useNavigate } from "react-router-dom";
 
 function project(props) {
-  
   const navigate = useNavigate();
   const projectImgHandler = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+
     navigate("/project");
   };
 
