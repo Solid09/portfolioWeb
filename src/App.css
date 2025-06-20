@@ -63,3 +63,20 @@ a:hover::before {
   left: 0;
 }
 
+@media (max-width: 768px) {
+  .home, .projectPage{
+    padding: 0rem 6.5rem 1rem 5.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  
+  
+}
+
