@@ -9,7 +9,7 @@ function home() {
       <section id="about">
         <div className="about">
           <h1>Minhal Raza</h1>
-          <p style={{ maxWidth: "700px" }}>
+          <p style={{ maxWidth: "700px", marginTop:"0" }}>
             I'm a MERN stack web developer. I specialize in developing web
             applications with responsive frontend and backend.
           </p>
@@ -25,7 +25,7 @@ function home() {
             </strong>
           </ul>
           <h3 style={{marginTop:"2.5rem"}}>About Me</h3>
-          <p>
+          <p style={{marginTop:"0", maxWidth: "700px"}}>
             I'm an undergraduate, currently enrolled in BSCS in University Of
             Karachi. I excel in web development using MERN stack.
           </p>

@@ -40,8 +40,8 @@ function App() {
                   "MongoDB",
                 ]}
                 liveLink="https://amazonclone99999.netlify.app/"
-                frontendGithubLink="https://github.com/Solid09/AmazonClone-Frontend"
-                backendGithubLink="https://github.com/Solid09/AmazonClone-Backend"
+                frontendGithubLink="https://github.com/minhalraza-09/AmazonClone-Frontend"
+                backendGithubLink="https://github.com/minhalraza-09/AmazonClone-Backend"
               />
             }
           />
